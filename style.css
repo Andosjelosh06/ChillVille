@@ -1,0 +1,173 @@
+body {
+    background-image: url(bilder/Hus/adrian.png);
+    background-size:contain;
+}
+
+h2 {
+    margin: 5rem 23rem 0rem 23rem;
+    padding-top: 1rem;
+    text-align: center; 
+    background-color: #A16639;   
+    border: solid 5px #61361E;
+    color: white;
+    font-size: 3rem;
+}
+
+main {
+    background-image: url(bilder/sorthull.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+p {
+    padding: 4% 10% 10% 10%;
+    margin: 0;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    font-family: roboto;
+}
+
+.omserver {
+    display: block;
+    background-color:red ;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-family: roboto;
+    background-color: lightgrey;
+    border-radius: 0rem 0rem 4rem 4rem;
+    background-image: url(bilder/steinbrikker.webp);
+}
+
+.item {
+    padding: 2rem 0rem 1.5rem 0rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+h1 {
+    display: block;
+    color: white;
+    background-color: lightgrey;
+    border-radius: 5rem 5rem 5rem 5rem;
+    padding: 2rem 0rem 0rem 0rem;
+    margin: 13rem 20rem 16rem 20rem ;
+    font-family: minecrafter; 
+    text-align: center; 
+    font-size: 7rem;
+    background-image: url(bilder/log.jpg);
+}
+
+.skille {
+    padding: 2rem 0rem 2rem 0rem;
+    background-color: red;
+}
+
+#log {
+    width: 100%;
+    max-height: 20%;
+}
+
+.boks {
+    background-image: url(bilder/log.jpg);
+    height: 7rem;
+}
+
+.bildeboks {
+  margin-top:10rem;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 75rem;
+  max-height: 30rem;
+  position: relative;
+  margin: auto;
+  border: solid 5px #61361E;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+
+/* forward & Back buttons */
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: rgb(255, 255, 255);
+  outline-style: dashed;
+  outline-color: white;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  top: 70%;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+  
+}
+
+/* Worknumbering (1/3 etc) */
+.MessageInfo {
+  color: #f2f2f3;
+  text-shadow: 2px 2px black;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+  background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.4s;
+  animation-name: fade;
+  animation-duration: 3.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
