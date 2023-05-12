@@ -1,82 +1,86 @@
-body {
-    background-image: url(bilder/Hus/adrian.png);
-    background-size:contain;
+.headerTittel {
+  display: block;
+  color: white;
+  background-color: lightgrey;
+  border-radius: 5rem 5rem 5rem 5rem;
+  padding: 2rem 0rem 0rem 0rem;
+  margin: 13rem 20rem 16rem 20rem ;
+  font-family: minecrafter; 
+  text-align: center; 
+  font-size: 7rem;
+  background-image: url(bilder/log.jpg); 
 }
 
 h2 {
-    margin: 5rem 23rem 0rem 23rem;
-    padding-top: 1rem;
-    text-align: center; 
-    background-color: #A16639;   
-    border: solid 5px #61361E;
-    color: white;
-    font-size: 3rem;
-}
-
-main {
-    background-image: url(bilder/sorthull.jpg);
-    background-size: cover;
-    width: 100%;
+  padding-bottom: 1rem;
 }
 
 p {
-    padding: 4% 10% 10% 10%;
-    margin: 0;
-    color: #fff;
-    font-size: 2rem;
-    text-align: center;
-    font-family: roboto;
+  /* padding: 4% 10% 10% 10%; */
+  margin: 0;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  font-family: roboto;
+}
+
+header {
+  background-image: url(bilder/Hus/adrian.png);
+  background-size: contain;
+}
+
+.tekst {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-top: 1rem;
+  padding-block-end: 0.5rem;
+  padding-inline: 0.5rem;
+  text-align: center; 
+  background-color: #A16639;   
+  border: solid 5px #61361E;
+  color: white;
+  font-size: 3rem;
 }
 
 .omserver {
-    display: block;
-    background-color:red ;
+  display: block;
+  background-color:red ;
 
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    text-shadow: 3px 3px black;
-    font-family: roboto;
-    background-color: lightgrey;
-    border-radius: 0rem 0rem 4rem 4rem;
-    background-image: url(bilder/steinbrikker.webp);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  text-shadow: 3px 3px black;
+  font-family: roboto;
+  background-color: lightgrey;
+  border-radius: 0rem 0rem 4rem 4rem;
+  background-image: url(bilder/steinbrikker.webp);
 }
 
 .item {
-    padding: 2rem 0rem 1.5rem 0rem;
-    text-decoration: none;
-    font-size: 2rem;
-}
-
-h1 {
-    display: block;
-    color: white;
-    background-color: lightgrey;
-    border-radius: 5rem 5rem 5rem 5rem;
-    padding: 2rem 0rem 0rem 0rem;
-    margin: 13rem 20rem 16rem 20rem ;
-    font-family: minecrafter; 
-    text-align: center; 
-    font-size: 7rem;
-    background-image: url(bilder/log.jpg);
+  padding: 2rem 0rem 1.5rem 0rem;
+  text-decoration: none;
+  font-size: 2rem;
 }
 
 .skille {
-    padding: 2rem 0rem 2rem 0rem;
-    background-color: red;
+  padding: 2rem 0rem 2rem 0rem;
+  background-color: red;
 }
 
 #log {
-    width: 100%;
-    max-height: 20%;
+  width: 100%;
+  max-height: 20%;
 }
 
 .boks {
-    background-image: url(bilder/log.jpg);
-    height: 7rem;
+  background-image: url(bilder/log.jpg);
+  height: 7rem;
+  margin-bottom: 1.5rem;
 }
 
 .bildeboks {
@@ -170,4 +174,18 @@ h1 {
 @keyframes fade {
   from {opacity: .5}
   to {opacity: 2}
+}
+
+.spillere {
+  background-image: url(bilder/portal.png);
+}
+
+
+@media screen and (max-width: 600px) {
+  .item {
+    padding: 1rem 0rem 0.75rem 0rem;
+    font-size: 1.4rem;
+  }
+  
+  
 }
