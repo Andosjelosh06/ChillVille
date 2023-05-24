@@ -37,10 +37,17 @@ p {
   color: #fff;
   font-size: 1.5rem;
   text-align: center;
-  font-family: roboto;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  line-height: 1.5rem;
 }
 
 .headerTittel {
+  /* position: absolute;
+  inset: 0;
+  margin: auto; */
   display: flex;
   place-content: center;
   border-radius: 5rem 5rem 5rem 5rem;
@@ -58,6 +65,11 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+/* .headerbilde {
+  position: relative;
+
+} */
 
 .tekst {
   display: flex;
@@ -230,8 +242,12 @@ header {
 .bunn {
   display: flex;
   margin-block-start: 5rem;
-  height: 15rem;
+  height: 20rem;
   background-color: #61361E;
+}
+
+#f21 {
+  height: 16rem;
 }
 
 .icon, .credits {
