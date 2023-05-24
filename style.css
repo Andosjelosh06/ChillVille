@@ -232,14 +232,6 @@ header {
   color: white;
   text-align: center;
 }
-
-.icon {
-  width: 50%;
-  padding-block: 2rem;
-  /* padding-inline: 2rem; */
-  color: white;
-  text-align: center;
-}
 @media only screen and (max-width: 780px) {
   /* .headerTittel {
     padding-inline: 1rem;
@@ -258,7 +250,7 @@ header {
 
   #f21 {
     height: 10rem;
-  }
+  }*/
 
 }
 
@@ -277,9 +269,9 @@ header {
     font-size: 1.4rem;
   }
 
-  h1 {
+  /* h1 {
     font-size: 2.5rem;
-  }
+  } */
 
   h3 {
     font-size: 0.9rem;
