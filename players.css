@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+  background-color: #4ED0FF;
+}
+
 a {
     text-decoration: none;
     color: white
@@ -204,12 +208,71 @@ main {
   grid-area: info; 
 }
 
+.bunn {
+  display: flex;
+  margin-block-start: 5rem;
+  height: 20rem;
+  background-color: #61361E;
+}
+
+#f21 {
+  height: 16rem;
+}
+
+.credits {
+  width: 50%;
+  padding-block: 2rem;
+  /* padding-inline: 2rem; */
+  color: white;
+  text-align: center;
+}
+
+.icon {
+  width: 50%;
+  padding-block: 2rem;
+  /* padding-inline: 2rem; */
+  color: white;
+  text-align: center;
+}
+
+button {
+  left: 50%;
+}
+
+.sandra {
+  text-align: center;
+  color: purple;
+  cursor: grab;
+  padding-block: 2rem;
+  padding-inline: 2rem;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 780px) {
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  #f21 {
+    height: 10rem;
+  }
+
+}
 
 @media screen and (max-width: 600px) {
-    .item {
+  .item {
       padding: 1rem 0rem 0.75rem 0rem;
       font-size: 1.4rem;
-    }
+  }
     
+  h3 {
+      font-size: 0.9rem;
+  }
+  
+  #f21 {
+    height: 8rem;
+  }
     
 }
+
