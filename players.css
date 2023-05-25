@@ -1,0 +1,285 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #4ED0FF;
+}
+a {
+  text-decoration: none;
+  color: white
+}
+h1 {
+font-family: 'Poppins', sans-serif;
+text-align: center; 
+font-size: 7rem;
+color: white; 
+}
+h2 {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+ }
+p {
+  /* padding: 4% 10% 10% 10%; */
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  text-shadow: 3px 3px black;
+  font-family: roboto;
+  background-color: lightgrey;
+  border-radius: 0rem 0rem 4rem 4rem;
+  background-image: url(bilder/steinbrikker.webp);
+  font-family: 'Poppins', sans-serif;
+}
+.mainItem {
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  margin-block-start: 0.3rem;
+  margin-block-end: 0.7rem;
+  text-decoration: none;
+  font-size: 3.8vw; 
+}
+.item {
+  padding: 2rem 0rem 1.5rem 0rem;
+  text-decoration: none;
+  font-size: 2.3vw;
+  min-width: 10rem;
+  max-width: 10rem;
+  text-align: center;
+}
+header {
+  background-color: #4ED0FF;
+}
+main {
+  background-color: #4ED0FF;
+}
+.tekst {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-block-start: 2rem;
+  padding-top: 1rem;
+  padding-block-end: 0.5rem;
+  padding-inline: 1rem;
+  text-align: center; 
+  background-color: #A16639;   
+  border: solid 5px #61361E;
+  color: white;
+  font-size: 3rem;
+}
+.butikk {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  margin-block-start: 2rem;
+  padding-top: 1rem;
+  padding-block-end: 0.5rem;
+  padding-inline: 1rem;
+  text-align: center; 
+  background-color: #F3F3F3;   
+  border: solid 5px #EF24A1;
+  color: black;
+  font-size: 3rem;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 60rem;
+  max-height: 30rem;
+  position: relative;
+  margin: auto;
+  border: solid 10px #61361E;
+  overflow: hidden;
+  object-fit: contain;
+} 
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+/* forward & Back buttons */
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: rgb(255, 255, 255);
+  outline-style: dashed;
+  outline-color: white;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  top: 55%;
+  border-radius: 4px 0 0 4px;
+}
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+    background-color: rgba(0,0,0,0.8);
+} 
+/* Worknumbering (1/3 etc) */
+.MessageInfo {
+  color: #f2f2f3;
+  text-shadow: 2px 2px black;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+} 
+.enable, .dots:hover {
+  background-color: #717161;
+}
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.4s;
+  animation-name: fade;
+  animation-duration: 3.4s;
+  }
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+.bilder {
+  margin-block-end: 3rem;
+}
+.start {  
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "bilde navn"
+    "bilde info"
+    "bilde info";
+}
+.bilde { 
+  grid-area: bilde; 
+}
+.navn { 
+  grid-area: navn; 
+}
+.info { 
+  grid-area: info; 
+}
+#f21 {
+  height: 15vw;
+}
+#svart {
+  color: #000;
+}
+#butikklenke {
+  text-decoration:underline;
+  color: blue;
+}
+.bunn {
+  display: flex;
+  margin-block-start: 5rem;
+  height: 18rem;
+  background-color: #61361E;
+}
+.credits {
+  width: 50%;
+  padding-block-start: 2rem;
+  /* padding-inline: 2rem; */
+  color: white;
+  text-align: center;
+}
+.icon {
+  width: 50%;
+  padding-block-start: 2rem;
+  /* padding-inline: 2rem; */
+  color: white;
+  text-align: center;
+}
+button {
+  margin-block: 1.5rem;
+  height: 5rem;
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+}
+.bokbutikk {
+  border: solid 6px #61361E;
+  background-color: #EF24A1;
+  color: #ffffff;
+  padding-inline: 1rem;
+  font-family: bellefair;
+  margin-inline: 1rem;
+}
+.dosj {
+  border: solid 6px #61361E;
+  background-color: white;
+  color: black;
+  padding-inline: 1rem;
+  font-family: 'Poppins', sans-serif;
+  margin-inline: 3rem;
+}
+.sandra { 
+  grid-area: sandra;
+  background-color: #A16639; 
+  border: solid 8px #61361E;
+  margin-inline: 3rem;
+}
+/* .butikk {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-inline: 3rem;
+} */
+.butikk2 { 
+  grid-area: butikk2; 
+  background-color: #A16639; 
+  border: solid 8px #61361E;
+  margin-inline: 3rem;
+}
+@media only screen and (max-width: 780px) {
+  h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .item {
+      padding: 1rem 0rem 0.75rem 0rem;
+      font-size: 1.4rem;
+  }
+  h3 {
+      font-size: 0.9rem;
+  }
+  
+  #f21 {
+    height: 7rem;
+  } 
+}

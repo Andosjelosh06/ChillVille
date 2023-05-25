@@ -6,48 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@1,300&display=swap" rel="stylesheet">
     </head>
     <body>
+        <nav class="navbar">
+            <div class="item"><a href="#om-server"><h4>Server</h4></a></div>
+            <div class="item"><a href="#karusell"><h4>Galleri</h4></a></div>
+            <div class="item"><a href="players.html"><h4>Medlemmer</h4></a></div>
+            <div class="item"><a href="butikker.html"><h4>Butikker</h4></a></div>
+        </nav>
         <header>
-            <div class="navbar">
-                <div class="item">Om server</div>
-                <div class="item">Bilder</div>
-                <div class="item"></div>
-                <div class="item">Medlemmer</div>
-                <div class="item">Butikker</div>
-            </div>
-            <h1 class="headerTittel">ChillVille</h1>
-            <div class="boks"></div>
+            <img class="headerBilde" src="bilder/Hus/adrian.png" alt="">
+            <img class="headerTittel" src="/bilder/chillville.svg" alt="">
         </header> 
         <main>
+            <div class="boks" id="om-server"></div>
             <div class="tekst">
-                <h2>Om server</h2>
-                <p>Lörem ipsum dugt suprarat. 
-                    Pategon infrar i telemiköling att koligt. Babybio disk.
-                    Pongen tön. Popåv ben. Remirade kådoling.
+                <h2 id="omServer">Serveren</h2>
+                <p>
+                    ChillVille er en lokal server som spiller på av 11 spillere.<br>
+                    Serveren har ikke vært åpen i mer enn en måned, men det har skjedd og blitt bygd mye.
+                    Med en god start, ser vi fram mot en lys framtid.
                 </p>
-            </div><br><br>
+            </div><br><br><br><br><br>
+            </div>
              <!-- Bilde-Karusell -->
-            <div class="slideshow-container fade">
+            <div class="slideshow-container fade" id="karusell">
 
                 <div class="Containers">
-                    <div class="MessageInfo">1 / 4</div>
+                    <div class="MessageInfo">1 / 13</div>
                     <img src="bilder/Hus/adrian.png" style="width:100%">
-                </div>
-            
-                <div class="Containers">
-                    <div class="MessageInfo">2 / 4</div>
-                    <img src="bilder/minecraft.jpeg" style="width:100%">
-                </div>
-            
-                <div class="Containers">
-                    <div class="MessageInfo">3 / 4</div>
-                    <img src="bilder/steinbrikker.webp" style="width:100%">
                 </div>
 
                 <div class="Containers">
-                    <div class="MessageInfo">4 / 4</div>
-                    <img src="bilder/Hus/adrian.png" style="width:100%">
+                    <div class="MessageInfo">2 / 13</div>
+                    <img src="bilder/Hus/bro.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">3 / 13</div>
+                    <img src="bilder/Hus/fyrtårn.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">4 / 13</div>
+                    <img src="bilder/Hus/martin.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">5 / 13</div>
+                    <img src="bilder/Hus/møterom.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">6 / 13</div>
+                    <img src="bilder/Hus/overblikk.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">7 / 13</div>
+                    <img src="bilder/Hus/bro2.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">8 / 13</div>
+                    <img src="bilder/Hus/portal.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">9 / 13</div>
+                    <img src="bilder/Hus/zombie.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">10 / 13</div>
+                    <img src="bilder/Hus/åker.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">11 / 13</div>
+                    <img src="bilder/Hus/villagerrom.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">12 / 13</div>
+                    <img src="bilder/Hus/overblikk2.png" style="width:100%">
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">13 / 13</div>
+                    <img src="bilder/Hus/fyrtårn2.png" style="width:100%">
                 </div>
             
                 <!-- knappene -->
@@ -61,25 +111,42 @@
                 <span class="dots" onclick="currentSlide(1)"></span>
                 <span class="dots" onclick="currentSlide(2)"></span>
                 <span class="dots" onclick="currentSlide(3)"></span>
+                <span class="dots" onclick="currentSlide(4)"></span>
+                <span class="dots" onclick="currentSlide(5)"></span>
+                <span class="dots" onclick="currentSlide(6)"></span>
+                <span class="dots" onclick="currentSlide(7)"></span>
+                <span class="dots" onclick="currentSlide(8)"></span>
+                <span class="dots" onclick="currentSlide(9)"></span>
+                <span class="dots" onclick="currentSlide(10)"></span>
+                <span class="dots" onclick="currentSlide(11)"></span>
+                <span class="dots" onclick="currentSlide(12)"></span>
+                <span class="dots" onclick="currentSlide(13)"></span>
+
             </div> 
-            <!-- ferdig Bilde-Karusell -->
-            <br><br><br><br><br>
-            <h2 class="bildeboks">Bilder<br><p>Lörem ipsum dugt suprarat. 
-                Pategon infrar i telemiköling att koligt. Babybio disk.
-                Pongen tön. Popåv ben. Remirade kådoling.</p>
-            </h2><br><br><br><br>
-            <div class="boks"></div>
-        </main>
-        <div class="spillere">
-            <br>
-            <div class="tekst"><h2>Spillere</h2>
-                <p>Lörem ipsum dugt suprarat. 
-                    Pategon infrar i telemiköling att koligt. Babybio disk.
-                    Pongen tön. Popåv ben. Remirade kådoling.
+            <!-- ferdig Bilde-Karusell --><br>
+            <div class="tekst" id="om-server">
+                <h2>Galleri</h2>
+                <p>
+                    Selv om det ikke er en gammel server, 
+                    er det fortsatt bygd masse.
+                    Fra hus og underjordiske baser, til Farms og åkere
+                
                 </p>
+        </main>
+        <footer>
+            <div class="bunn">
+                <div class="icon"><img id="f21" src="bilder/1x/Asset 2.png" alt=""></div>
+                <div class="credits">
+                    <h3>
+                        Ide og Kode : Anders Holthe Stanger<br><br>
+                        Kritikere/testere : Sandra Eng, Adrian Zander,<br> 
+                        Daniel Børdalen, Martin Harsem,<br>
+                        Lavrans Husebø, Magnus Bjurstedt, <br><br>
+                        Bilder: Magnus Bjurstedt, Adrian Zander
+                    </h3>
+                </div>
             </div>
-            <br><br><br><br>
-        </div>
+        </footer>
         <script src="script.js"></script>
     </body>
 </html>
