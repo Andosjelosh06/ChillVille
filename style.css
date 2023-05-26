@@ -181,6 +181,7 @@ header {
   width: 16px;
   margin: 0 3px;
   background-color: #acc;
+  border: solid 1px black;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.5s ease;
